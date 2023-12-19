@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aqua;
+    display: flex;
+    height: 100vh;
+   
+}
+
+.right {
+    width: 100px;
+    display: flex;
+    background-color: black;
+   flex-direction: column;
+align-items: center;
+}
+.right :hover {
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+}
+.right h2 {
+    text-transform: uppercase;
+}
+.right h2 :hover {
+    color: brown;
+}
+.right a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.left {
+    width: 100px;
+     
+    display: flex;
+    gap:30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow:scroll;
+}
+ 
+.left img {
+    justify-content: center;
+    width:200px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+.left p {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
